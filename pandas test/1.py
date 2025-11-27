@@ -43,7 +43,7 @@ data['Age'] = data['Age'].fillna(data['Age'].median())
 print()
 #6
 data['FamilySize'] = data['SibSp'] + data['Parch'] + 1
-print("размер семьи  888 пассажира:", data.loc[887, 'FamilySize'])
+print("размер семьи  888 пассажира:", data.loc[888, 'FamilySize'])
 print()
 #7
 print(f"средний возраст выживших: {data[data['Survived'] == 1]['Age'].mean():.2f}")
